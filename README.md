@@ -1,4 +1,4 @@
-# Online Retail Transactions Analysis
+![product_wise_sales](https://github.com/user-attachments/assets/60d9a872-3971-4ffe-94f3-a9e26435b092)# Online Retail Transactions Analysis
 
 ## Table of Content
 - [Project Background](#project-background)
@@ -41,18 +41,20 @@ Data obtained from the UCI Machine Learning Repository (extract in Excel format)
 # Overview of Findings 
 ### Executive summary 
 
-** Key Conclusions from Sales trends :**
+**Key Conclusions from Sales trends :**
 
 The United Kingdom is the overwhelmingly dominant market, accounting for the vast majority of sales. This suggests a heavy reliance on the UK for revenue, which could pose a risk if market conditions in the UK change.
 
 Market diversification: The United Kingdom is the dominant market, with significantly higher sales compared to other countries. Reduce reliance on the UK market by looking at expansion into other countries, especially as an online retailer can operate globally. 
+![image](https://github.com/user-attachments/assets/12f1951a-0f04-4b52-a1bf-bc24c76bfa9f)
 
 Seasonal Marketing Campaign: Use the "hockey curve" sales trend to plan targeted marketing and promotions for the end of the year. 
 <img width="897" alt="image" src="https://github.com/aleksandra20050404/OnlineRetail_Data_Analysis/img/monthly_sales.png" />
 
+Potential Inventory issues: The low percentages (all under 2%) could imply either a lack of standout products that drive significant sales or an overly broad product catalog diluting focus. Alternatively, it might reflect a business model that relies on high-volume, low-margin sales across many products. 
+<img width="897" alt="image" src="https://github.com/aleksandra20050404/OnlineRetail_Data_Analysis/img/product_wise_sales.png" />
+Investment in marketing campaigns to pair top products with complementary items (e.g., bundle Regency Cake Stand 3 Tier with Party Bunting for event hosting) will increase average order value. 
 
-Potential Inventory or Marketing Issues: The low percentages (all under 2%) could imply either a lack of standout products that drive significant sales or an overly broad product catalog diluting focus. Alternatively, it might reflect a business model that relies on high-volume, low-margin sales across many products. 
-Invest in marketing campaigns to pair top products with complementary items (e.g., bundle Regency Cake Stand 3 Tier with Party Bunting for event hosting) to increase average order value, 
 ### RFM analysis demonstrated  healthy customer value distribution nearly evenly split (Low: 35%, Medium: 29%, High: 29%), indicating diversified revenue streams rather than over-reliance on one segment.
 
 Based on Churn Analysis addressing 0–30 day churn could recover 60–70% of at-risk revenue based on density concentration. nvestigate early churn drivers (e.g., quality issues, delivery delays) through customer interviews. Set targets to increase average customer lifespan by tracking "Days to Churn"
