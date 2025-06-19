@@ -1,4 +1,4 @@
-![product_wise_sales](https://github.com/user-attachments/assets/60d9a872-3971-4ffe-94f3-a9e26435b092)# Online Retail Transactions Analysis
+# Online Retail Transactions Analysis
 
 ## Table of Content
 - [Project Background](#project-background)
@@ -49,15 +49,23 @@ Market diversification: The United Kingdom is the dominant market, with signific
 ![image](https://github.com/user-attachments/assets/12f1951a-0f04-4b52-a1bf-bc24c76bfa9f)
 
 Seasonal Marketing Campaign: Use the "hockey curve" sales trend to plan targeted marketing and promotions for the end of the year. 
-<img width="897" alt="image" src="https://github.com/aleksandra20050404/OnlineRetail_Data_Analysis/img/monthly_sales.png" />
+
+![image](https://github.com/aleksandra20050404/OnlineRetail_Data_Analysis/blob/main/img/monthly_sales.png)
+
 
 Potential Inventory issues: The low percentages (all under 2%) could imply either a lack of standout products that drive significant sales or an overly broad product catalog diluting focus. Alternatively, it might reflect a business model that relies on high-volume, low-margin sales across many products. 
-<img width="897" alt="image" src="https://github.com/aleksandra20050404/OnlineRetail_Data_Analysis/img/product_wise_sales.png" />
+
+![image](https://github.com/aleksandra20050404/OnlineRetail_Data_Analysis/blob/main/img/product_wise_sales.png)
+
 Investment in marketing campaigns to pair top products with complementary items (e.g., bundle Regency Cake Stand 3 Tier with Party Bunting for event hosting) will increase average order value. 
 
-### RFM analysis demonstrated  healthy customer value distribution nearly evenly split (Low: 35%, Medium: 29%, High: 29%), indicating diversified revenue streams rather than over-reliance on one segment.
+### RFM analysis**
+
+RFM Analysis demonstrated  healthy customer value distribution nearly evenly split (Low: 35%, Medium: 29%, High: 29%), indicating diversified revenue streams rather than over-reliance on one segment.
 
 Based on Churn Analysis addressing 0–30 day churn could recover 60–70% of at-risk revenue based on density concentration. nvestigate early churn drivers (e.g., quality issues, delivery delays) through customer interviews. Set targets to increase average customer lifespan by tracking "Days to Churn"
+![image](https://github.com/aleksandra20050404/OnlineRetail_Data_Analysis/blob/main/img/distribution_for_churnged_customers.png)
+
 
 For Mid-Term retention customers implement personalized reactivation strategies to segment users by past behavior, such as category preference and send personalized product recommendations monthly.
 
@@ -72,7 +80,7 @@ The dataset was loaded from a zipped file containing an Excel file.
 ### Step 2: Data Preparation:
 
 ####Data Cleansing Assumptions : 
-Some negative Quantity and UnitPrice values ​​have been removed based on error assumptions, which must be confirmed by the database owners
+Some negative Quantity and UnitPrice values ​​have been removed based on error assumptions, which must be confirmed by the database owners.
 
 Initial data exploration revealed missing values in 'CustomerID' and 'Description', and negative values in 'Quantity' and 'UnitPrice'.
 Missing 'Description' values were imputed by using the most frequent description for each 'StockCode'.
